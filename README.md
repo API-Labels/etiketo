@@ -13,7 +13,7 @@ A label document is a single JSON object containing a single `labels` member. Th
     "API": {
       "version": "1.3.42",
       "SPDX-license": "ADSL",
-      "http://example.com/privatelabeltype": "some label value"
+      "http://example.com/APIlabels/demotype": "some label value"
 }}}
 ```
 
