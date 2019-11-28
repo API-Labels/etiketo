@@ -1,20 +1,16 @@
-# Label Format
+# API Label Format
 
-This is the *Label Format specification* for representing sets of labels in a JSON-based representation. Labels can used for different purposes, and the format provides a way to separate and group labels. Groups carry names, which can be registered or extension names.
+This is the *API Label Format specification* for representing sets of API labels in a JSON-based representation. An API label document contains labels for one API. Labels are either *values* or *links*. Value labels are either strings or sets of strings. Link labels are either URIs or sets of URIs. Both value and link labels can use either registered or extension types.
 
-Each *registered group of labels* is represented by a *top-level folder in this repository*, with the folder name representing the group name. Names are strings containing ASCII characters, numbers, and hyphens. They must be treated as being case-insensitive.
+Here is a simple example of an API label document, which identifies the API it describes, and uses a `title` label with a string value:
 
-*Extension names* are URIs to avoid name clashes between privately used groups of labels.
-
-A label document is a single JSON object containing a single `labels` member. The `label` member is a set of one or more members, with each member being identified by the group name.
-
+```javascript
+{
+  "labels": {
+    "title": "Example API",
+  },
+  "links": {
+    "describes": "http://example.com/API"
+  }
+}
 ```
-{ "labels": {
-    "API": {
-      "version": "1.3.42",
-      "SPDX-license": "ADSL",
-      "http://example.com/APIlabels/demotype": "some label value"
-}}}
-```
-
-Each group contains a set of labels. Each label is a member with the label type as the member name, and the label value as the member value. It is up to the label group to define the allowed label types.
