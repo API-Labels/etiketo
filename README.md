@@ -20,6 +20,11 @@ API label documents are JSON objects containing a `labels` and/or a `links` memb
 
 ## API Labels: Value Labels
 
+In an API label document, the `labels` member is an object that contains all the value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
+
+Any member of the `labels` object that is neither a string nor a set of strings MUST be ignored and does not constitute an API value label.
+
+
 ### Types of Value Labels
 
 The registered label types that can be used for value labels can be found in the [API label type registry](https://github.com/API-Labels/label-registry).
