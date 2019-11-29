@@ -58,3 +58,7 @@ The registered link relation types that can be used for link labels can be found
 
 ### Value Range of Value Labels
 
+
+## API Label Discovery
+
+[[ see issue #1 for now. ]]
