@@ -31,6 +31,14 @@ Each member representing a value label consists of a name and a value. The name 
 
 Value label names can either be simple strings, in which case they represent registered label value types, or URIs, in which case they represent extension label value types. This naming model is derived from the naming model of link relation types established by [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288).
 
+The ABNF for value label names is as follows (using the definition from [RFC 8288](https://tools.ietf.org/html/rfc8288)):
+
+```ABNF
+label-name      = reg-label-name / ext-label-name
+reg-label-name  = LOALPHA *( LOALPHA / DIGIT / "." / "-" )
+ext-label-name  = URI ; Section 3 of [RFC3986]
+```
+
 The registered label types that can be used for value labels can be found in the [API label type registry](https://github.com/API-Labels/label-registry).
 
 
