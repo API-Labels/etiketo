@@ -15,7 +15,7 @@ Here is a simple example of an Etiketo document, which assigns a `title` to the 
 }
 ```
 
-Etiketo documents are JSON objects containing a `labels` and/or a `links` member.
+Etiketo documents are JSON objects containing a `labels` and/or a `links` member. The API labels represented in an Etiketo document is the combination of the value labels (listed in the `labels` member) and the link labels (listed in the `links` member).
 
 
 ## API Labels: Value Labels
