@@ -4,7 +4,7 @@ This is the *Etiketo API Label Format specification* for representing sets of AP
 
 Here is a simple example of an Etiketo document, which assigns a `title` to the API (using a value label), and identifies the API it describes (using a link label):
 
-```javascript
+```json
 {
   "labels": {
     "title": "Example API",
