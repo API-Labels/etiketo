@@ -22,10 +22,14 @@ Etiketo documents are JSON objects containing a `labels` and/or a `links` member
 
 In an Etiketo document, the `labels` member is an object that contains all the value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
 
-Any member of the `labels` object where the member value is neither a string nor a set of strings MUST be ignored and does not constitute an API value label.
+Any member of the `labels` object where the member value is neither a string nor an array of strings MUST be ignored and does not constitute an API value label.
+
+Each member representing a value label consists of a name and a value. The name represents the name of the API value label. The value (which is a string or an array of strings) represents the value of the API value label. 
 
 
 ### Types of Value Labels
+
+Value label names can either be simple strings, in which case they represent registered label value types, or URIs, in which case they represent extension label value types. This naming model is derived from the naming model of link relation types established by [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288).
 
 The registered label types that can be used for value labels can be found in the [API label type registry](https://github.com/API-Labels/label-registry).
 
