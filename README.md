@@ -1,8 +1,8 @@
-# API Label Format
+# The Etiketo API Label Format
 
-This is the *API Label Format specification* for representing sets of API labels in a JSON-based representation. An API label document contains labels for one API. Labels are either *values* or *links*. Value labels are either strings or sets of strings. Link labels are either URIs or sets of URIs. Both value and link labels can use either registered or extension types.
+This is the *Etiketo API Label Format specification* for representing sets of API labels in a JSON-based representation. An Etiketo document contains labels for one API. Labels are either *values* or *links*. Value labels are either strings or sets of strings. Link labels are either URIs or sets of URIs. Both value and link labels can use either registered or extension types.
 
-Here is a simple example of an API label document, which identifies the API it describes, and uses a `title` label with a string value:
+Here is a simple example of an Etiketo document, which identifies the API it describes, and uses a `title` label with a string value:
 
 ```javascript
 {
@@ -15,12 +15,12 @@ Here is a simple example of an API label document, which identifies the API it d
 }
 ```
 
-API label documents are JSON objects containing a `labels` and/or a `links` member.
+Etiketo documents are JSON objects containing a `labels` and/or a `links` member.
 
 
 ## API Labels: Value Labels
 
-In an API label document, the `labels` member is an object that contains all the value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
+In an Etiketo document, the `labels` member is an object that contains all the value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
 
 Any member of the `labels` object that is neither a string nor a set of strings MUST be ignored and does not constitute an API value label.
 
