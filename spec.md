@@ -18,7 +18,7 @@ Here is a simple example of an Etiketo document, which assigns a `title` to the 
 Etiketo documents are JSON objects containing a `labels` and/or a `links` member. The API labels represented in an Etiketo document is the combination of the value labels (listed in the `labels` member) and the link labels (listed in the `links` member).
 
 
-## API Labels: Value Labels
+## Etiketo Value Labels
 
 In an Etiketo document, the `labels` member is an object that contains all the value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
 
@@ -32,7 +32,7 @@ The registered label types that can be used for value labels can be found in the
 
 ### Value Range of Value Labels
 
-## API Labels: Link Labels
+## Etiketo Link Labels
 
 In an Etiketo document, the `links` member is an object that contains all the link labels as members. Each member in the `links` object constitutes an API link label. Link labels are either URIs or sets of URIs.
 
