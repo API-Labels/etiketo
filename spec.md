@@ -44,6 +44,9 @@ The registered label types that can be used for value labels can be found in the
 
 ### Value Range of Value Labels
 
+Each value label is identified by a type (as described above) and has a value. Value labels can have two types of values, either single strings, or sets of strings. If a value label has a value of a single string, this is represented as a JSON string.  If a value label has a value of a set of strings, this is represented as a JSON array of strings.
+
+
 ## Etiketo Link Labels
 
 In an Etiketo document, the `links` member is an object that contains all the link labels as members. Each member in the `links` object constitutes an API link label. Link labels are either URIs or sets of URIs.
