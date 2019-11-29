@@ -34,7 +34,10 @@ The registered label types that can be used for value labels can be found in the
 
 ## API Labels: Link Labels
 
+In an Etiketo document, the `links` member is an object that contains all the link labels as members. Each member in the `links` object constitutes an API link label. Link labels are either URIs or sets of URIs.
+
 the model established by [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288)
+
 
 ### Types of Link Labels
 
