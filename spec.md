@@ -46,6 +46,8 @@ The registered label types that can be used for value labels can be found in the
 
 Each value label is identified by a type (as described above) and has a value. Value labels can have two types of values, either single strings, or sets of strings. If a value label has a value of a single string, this is represented as a JSON string.  If a value label has a value of a set of strings, this is represented as a JSON array of strings.
 
+Label types SHOULD indicate whether their value is supposed to be a single string, or a set of strings. If the representation of a value label does not match the way the label type is specified, applications MAY ignore the label.
+
 
 ## Etiketo Link Labels
 
