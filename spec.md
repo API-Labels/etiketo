@@ -68,7 +68,10 @@ The registered link relation types that can be used for link labels can be found
 
 Value labels can have one of two types of names: They can be simple strings, in which case they are interpreted as registered value labels. Alternatively, they can be URIs, in which case they are interpreted as extension labels.
 
-Registered label types are supposed to use names that are registered in the [API label type registry](https://github.com/API-Labels/registry).
+Registered label types are supposed to use names that are registered in the [API label type registry](https://github.com/API-Labels/registry). This specification registers the following label types:
+
+- `tags` (set of strings): A set of tags that are used to describe the API. Each string in the set of strings represents one individual tag.
+- `title` (string): A human-readable title of the described API.
 
 
 ## API Label Discovery
