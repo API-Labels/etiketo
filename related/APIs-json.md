@@ -1,4 +1,4 @@
-# APIs.json
+# [APIs.json](http://apisjson.org/)
 
 The following information is taken from the [0.15 version of the APIs.json format](http://apisjson.org/format/apisjson_0.15.txt).
 
