@@ -72,6 +72,7 @@ Registered label types are supposed to use names that are registered in the [API
 
 - `tags` (set of strings): A set of tags that are used to describe the API. Each string in the set of strings represents one individual tag.
 - `title` (string): A human-readable title of the described API.
+- `version` (string): The version identifier of the described API.
 
 
 ## API Label Discovery
