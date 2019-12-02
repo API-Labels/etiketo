@@ -39,7 +39,7 @@ reg-label-name  = LOALPHA *( LOALPHA / DIGIT / "." / "-" )
 ext-label-name  = URI ; Section 3 of [RFC3986]
 ```
 
-The registered label types that can be used for value labels can be found in the [API label type registry](https://github.com/API-Labels/label-registry).
+The registered label types that can be used for value labels can be found in the [API label type registry](https://github.com/API-Labels/registry) as described in the registry section below.
 
 
 ### Value Range of Value Labels
@@ -62,6 +62,13 @@ The registered link relation types that can be used for link labels can be found
 
 
 ### Value Range of Value Labels
+
+
+## API Label Type Registry
+
+Value labels can have one of two types of names: They can be simple strings, in which case they are interpreted as registered value labels. Alternatively, they can be URIs, in which case they are interpreted as extension labels.
+
+Registered label types are supposed to use names that are registered in the [API label type registry](https://github.com/API-Labels/registry).
 
 
 ## API Label Discovery
