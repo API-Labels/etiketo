@@ -63,6 +63,8 @@ The registered link relation types that can be used for link labels can be found
 
 ### Value Range of Link Labels
 
+Link labels are typed Web links. Their type is established through their name, which identifies link relation types in accordance with [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288). In the same way as RFC 8288 allows links to have multiple targets, this is also allowed for Etiketo link labels.
+
 
 ## API Label Type Registry
 
