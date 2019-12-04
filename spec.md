@@ -77,6 +77,11 @@ Registered label types are supposed to use names that are registered in the [API
 - `version` (string): The version identifier of the described API.
 
 
+## Examples
+
+...
+
+
 ## API Label Discovery
 
 [[ see issue #1 for now. ]]
