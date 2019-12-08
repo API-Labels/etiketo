@@ -1,4 +1,4 @@
-# The Etiketo API Label Format Specification
+# Etiketo API Label Format Specification
 
 This is the *Etiketo API Label Format specification* for representing sets of API labels in a JSON-based representation. An Etiketo document contains labels for one API. Labels are either *values* or *links*. Value labels are either strings or sets of strings. Link labels are either URIs or sets of URIs. Both value and link labels can use either registered or extension types.
 
