@@ -58,7 +58,7 @@ Etiketo link labels generally follow the model established by [RFC 8288 (Web Lin
 
 ### Types of Link Labels
 
-The registered link relation types that can be used for link labels can be found in the [link relation type registry maintained by IANA](https://www.iana.org/assignments/link-relations/link-relations.xhtml).
+As defined by RFC 8288, link relation types can be either registered, or they can be extension link relation types. Registered link relation types are identified by simple strings, and the registered link relation types can be found in the [link relation type registry maintained by IANA](https://www.iana.org/assignments/link-relations/link-relations.xhtml).
 
 
 ### Value Range of Link Labels
