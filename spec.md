@@ -51,9 +51,9 @@ Label types SHOULD indicate whether their value is supposed to be a single strin
 
 ## Etiketo Link Labels
 
-In an etiketo document, the `links` member is an object that contains all link labels as members. Each member in the `links` object constitutes an API link label. Link labels are either URIs or sets of URIs.
+In an etiketo document, the `links` member is an object that contains all link labels as members. Each member in the `links` object constitutes an API link label. Link label values are either URIs or sets of URIs, where URIs are represented by a JSON string and sets of URIs are represented by a JSON array of strings.
 
-Etiketo link labels generally follow the model established by [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288).
+Etiketo link labels generally follow the model established by [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288). This model assumes that links are using link relations, and that each link therefore is a typed reference to the URI it is linking to.
 
 
 ### Types of Link Labels
