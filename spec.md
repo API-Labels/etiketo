@@ -44,7 +44,7 @@ The registered label types that can be used for value labels can be found in the
 
 ### Value Range of Value Labels
 
-Each value label is identified by a type (as described above) and has a value. Value labels can have two types of values, either single strings, or sets of strings. If a value label has a value of a single string, this is represented as a JSON string.  If a value label has a value of a set of strings, this is represented as a JSON array of strings.
+Each value label is identified by a type (as described above) and has a value. Value labels can have two types of values, either single strings, or sets of strings. If a value label has a value of a single string, this is represented as a JSON string.  If a value label has a value of a set of strings, this is represented as a JSON array of strings. An array containing a single string is equivalent to that single string without a containing array.
 
 Label types SHOULD indicate whether their value is supposed to be a single string, or a set of strings. If the representation of a value label does not match the way the label type is specified, applications MAY ignore the label.
 
