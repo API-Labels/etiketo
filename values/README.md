@@ -1,3 +1,5 @@
-# Etiketo API Value Types
+# Etiketo API Value Label Types
 
-This is where etiketo API value label types are being collected.
+This is where well-known etiketo API value label types are being collected, mostly those for compatibility with existing formats.
+
+* [APIs.json](APIs.json)
