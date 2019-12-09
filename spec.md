@@ -69,6 +69,8 @@ Etiketo uses the model established by RFC 8288 for its link labels, and uses the
 
 Link labels are typed Web links. Their type is established through their name, which identifies link relation types in accordance with [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288). In the same way as RFC 8288 allows links to have multiple targets, this is also allowed for etiketo link labels.
 
+A link label establishes one or more links of the specified link relation type. The value of link labels is either a single URI, which is represented by a single JSON string, or a set of URIs, which is represented by a JSON array of strings. An array containing a single string is equivalent to that single string without a containing array.
+
 
 ## API Value Label Type Registry
 
