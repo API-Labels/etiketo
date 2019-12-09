@@ -62,6 +62,8 @@ As defined by RFC 8288, link relation types can be either registered, or they ca
 
 Extension link relation types, on the other hand, are identified by URI. This makes it easier to avoid name clashes in decentralized scenarios where services are inventing and using their own link relation types. It also makes it possible (though this is not required) to use URIs that can be dereferenced and then provide documentation about their meaning.
 
+Etiketo uses the model established by RFC 8288 for its link labels, and uses the same model (i.e., a registry for simple types and URIs for naming extension types) for its value labels. This means that both value and link label types work in the same way.
+
 
 ### Value Range of Link Labels
 
