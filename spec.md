@@ -71,6 +71,8 @@ Link labels are typed Web links. Their type is established through their name, w
 
 A link label establishes one or more links of the specified link relation type. The value of link labels is either a single URI, which is represented by a single JSON string, or a set of URIs, which is represented by a JSON array of strings. An array containing a single string is equivalent to that single string without a containing array.
 
+Label types SHOULD indicate whether their value is supposed to be a single URI, or a set of URIs. If the representation of a value label does not match the way the label type is specified, applications MAY ignore the label.
+
 
 ## API Value Label Type Registry
 
