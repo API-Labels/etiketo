@@ -1,8 +1,8 @@
 # Etiketo API Label Format Specification
 
-This is the *Etiketo API Label Format specification* for representing sets of API labels in a JSON-based representation. An Etiketo document contains labels for one API. Labels are either *values* or *links*. Value labels are either strings or sets of strings. Link labels are either URIs or sets of URIs. Both value and link labels can use either registered or extension types.
+This is the *etiketo API Label Format specification* for representing sets of API labels in a JSON-based representation. An etiketo document contains labels for one API. Labels are either *values* or *links*. Value labels are either strings or sets of strings. Link labels are either URIs or sets of URIs. Both value and link labels can use either registered or extension types.
 
-Here is a simple example of an Etiketo document, which assigns a `title` to the API (using a value label), and identifies the API it describes (using a link label):
+Here is a simple example of an etiketo document, which assigns a `title` to the API (using a value label), and identifies the API it describes (using a link label):
 
 ```json
 {
@@ -15,12 +15,12 @@ Here is a simple example of an Etiketo document, which assigns a `title` to the 
 }
 ```
 
-Etiketo documents are JSON objects containing a `labels` and/or a `links` member. The API labels represented in an Etiketo document is the combination of the value labels (listed in the `labels` member) and the link labels (listed in the `links` member).
+Etiketo documents are JSON objects containing a `labels` and/or a `links` member. The API labels represented in an etiketo document is the combination of the value labels (listed in the `labels` member) and the link labels (listed in the `links` member).
 
 
 ## Etiketo Value Labels
 
-In an Etiketo document, the `labels` member is an object that contains all value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
+In an etiketo document, the `labels` member is an object that contains all value labels as members. Each member in the `labels` object constitutes an API value label. Value labels are either strings or sets of strings.
 
 Any member of the `labels` object where the member value is neither a string nor an array of strings MUST be ignored and does not constitute an API value label.
 
@@ -51,7 +51,7 @@ Label types SHOULD indicate whether their value is supposed to be a single strin
 
 ## Etiketo Link Labels
 
-In an Etiketo document, the `links` member is an object that contains all link labels as members. Each member in the `links` object constitutes an API link label. Link labels are either URIs or sets of URIs.
+In an etiketo document, the `links` member is an object that contains all link labels as members. Each member in the `links` object constitutes an API link label. Link labels are either URIs or sets of URIs.
 
 Etiketo link labels generally follow the model established by [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288).
 
@@ -63,7 +63,7 @@ The registered link relation types that can be used for link labels can be found
 
 ### Value Range of Link Labels
 
-Link labels are typed Web links. Their type is established through their name, which identifies link relation types in accordance with [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288). In the same way as RFC 8288 allows links to have multiple targets, this is also allowed for Etiketo link labels.
+Link labels are typed Web links. Their type is established through their name, which identifies link relation types in accordance with [RFC 8288 (Web Linking)](https://tools.ietf.org/html/rfc8288). In the same way as RFC 8288 allows links to have multiple targets, this is also allowed for etiketo link labels.
 
 
 ## API Label Type Registry

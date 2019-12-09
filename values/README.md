@@ -1,3 +1,3 @@
 # Etiketo API Value Types
 
-This is where Etiketo API value label types are being collected.
+This is where etiketo API value label types are being collected.
