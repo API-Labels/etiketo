@@ -5,3 +5,4 @@ Welcome to the *etiketo API Label Format*. It is a format for representing API l
 * [Etiketo API Label Format Specification](spec.md)
 * [Etikedita: An etiketo validator](https://labs.xwaay.net/labels-validator)
 * [Related Work](related) (other approaches for describing APIs)
+* [Value Label Types](values) (URIs for representing API descriptions of related approaches)
