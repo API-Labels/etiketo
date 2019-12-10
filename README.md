@@ -1,3 +1,5 @@
+![](resources/etiketo-v1-small-trans.png)
+
 # The Etiketo API Label Format
 
 Welcome to the *etiketo API Label Format*. It is a format for representing API labels and is intended to serve as an open and extensible way to represent information *about* APIs. This is an ongoing effort, and currently the following resources are available:
