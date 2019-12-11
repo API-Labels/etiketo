@@ -87,4 +87,4 @@ Registered label types are supposed to use names that are registered in the [API
 
 ## API Label Discovery
 
-[[ see issue #1 for now. ]]
+[[ see [GitHub issue #1 "how to discover API labels"](https://github.com/API-Labels/etiketo/issues/1) for now. ]]
