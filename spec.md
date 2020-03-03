@@ -45,6 +45,14 @@ ext-label-name  = URI ; Section 3 of [RFC3986]
 
 The registered label types that can be used for value labels can be found in the [API label type registry](https://github.com/API-Labels/registry) as described in the registry section below.
 
+Two examples of labels:
+the first label-name uses the `reg-label-name` syntax 
+and the second label-name uses the `ext-label-name`.
+
+~~~
+{ "title": "Petstore API" }
+{ "https://twitter.com/thecambook/maturity": "publish"}
+~~~
 
 ### Value Range of Value Labels
 
