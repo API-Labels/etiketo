@@ -58,10 +58,12 @@ and a set of strings value.
 
 ~~~
 {
-  "title": "Petstore API",
-  "tags: [
-    "hello-world", "openapi"
-  ]
+  "labels": {
+    "title": "Petstore API",
+    "tags: [
+      "hello-world", "openapi"
+    ]
+  }
 }
 ~~~
 
