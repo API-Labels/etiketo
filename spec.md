@@ -60,6 +60,20 @@ Each value label is identified by a type (as described above) and has a value. V
 
 Label types SHOULD indicate whether their value is supposed to be a single string, or a set of strings. If the representation of a value label does not match the way the label type is specified, applications MAY ignore the label.
 
+One example of an etiketo document
+using two value labels: a string value
+and a set of strings value.
+
+~~~
+{
+  "labels": {
+    "title": "Petstore API",
+    "tags: [
+      "hello-world", "openapi"
+    ]
+  }
+}
+~~~
 
 ## Etiketo Link Labels
 
